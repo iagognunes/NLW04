@@ -19,3 +19,7 @@ class EnviarEmailParaUsuario{
       texto: "tudo bem?"});
   }
 }
+
+// Aula 1 - #rumoaoproximonivel
+// Aula 2 - #jornadainfinita
+// Aula 4 - #focopraticagrupo
