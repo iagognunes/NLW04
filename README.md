@@ -9,6 +9,5 @@ Repositório das aulas feitas na NLW4
 
 ### Using:
   <p>
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-plain.svg" alt="nodejs" width="30" height="30"/> 
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg" alt="typescript" width="30" height="30"/>
   </p>
