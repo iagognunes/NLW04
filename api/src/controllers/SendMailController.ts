@@ -43,8 +43,10 @@ class SendMailController {
         const npsPath = resolve(__dirname, "..", "views", "emails", "npsMail.hbs");
 
         const surveyUserAlreadyExists = await surveysUsersRepository.findOne({
-            where: [{user_id: user.id}, {value: null}]
+            where: [{user_id: user.id}, {value: null}],
+            relations: ["user", "survey"],
         });
+
         if(surveyUserAlreadyExists){
             await SendMailService.execute(email, survey.title, variables, npsPath);
             return response.json(surveyUserAlreadyExists);
@@ -74,5 +76,3 @@ class SendMailController {
 }
 
 export { SendMailController } 
-
-//PAREI O VIDEO EM 1H20MIN

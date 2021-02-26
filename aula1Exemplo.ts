@@ -22,7 +22,8 @@ class EnviarEmailParaUsuario{
 
 // Aula 1 - #rumoaoproximonivel
 // Aula 2 - #jornadainfinita
-// Aula 4 - #focopraticagrupo
+// Aula 3 - #focopraticagrupo
+// Aula 4 - #neverstoplearning
 
 /*Obs: 
 -É preciso mudar o script posttest para cada computador. O que ta la é para onde o projeto foi feito.
